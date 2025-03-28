@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "outDir": "./dist"
+  },
+  "include": ["src"]
+}
