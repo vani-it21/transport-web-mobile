@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @font-face {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("/fonts/Oswald.woff2") format("woff2");
+  } */
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+.scrollbar-transparent::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 255);
+    border-radius: 4px;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
